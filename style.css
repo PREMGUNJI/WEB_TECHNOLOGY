@@ -1,0 +1,44 @@
+.a {
+    font-size: 20px;
+    color: darkblue
+}
+
+table,
+th,
+td {
+    border: 2px dotted;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.b {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.song {
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.video {
+    justify-content: left;
+}
+
+.e {
+    font-size: 25px;
+}
+
+.ul {
+    font-size: 20px;
+    font-style: italic;
+    color: orchid;
+    font-weight: 600;
+}
+
+.ol {
+    font-size: 20px;
+    font-style: italic;
+    color: olivedrab;
+    font-weight: 600;
+}

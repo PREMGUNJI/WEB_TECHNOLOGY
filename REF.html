@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>USER REGISTRATION FORM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/2122269/pexels-photo-2122269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <div id="x" align="right">
+        <h4> upload your pic</h4><br><br>
+        <label for="file" style="cursor: pointer;">Upload Image</label>
+        <input type="file" accept="image/*" name="image" id="file" style="display: none;">
+    </div>
+    <form action=" " method="get">
+        <fieldset>
+            <h3> welcome to user registration</h3>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="mail">Mail add:</label>
+            <input type="email" id="mail" name="mail"><br><br>
+            <label for="contact">contact no:</label>
+            <input type="number" id="contact" name="contact number"><br><br>
+            <label for="DATE">Dob:</label>
+            <input type="date" id="DATE" name="Date"><br><br>
+            <label for="Gender"> Gender:</label>
+            <label for="Male">Male</label><input type="radio"><label for="Female">Female</label>
+            <input type="radio"><br><br>
+            <label for="File">completion:</label>
+            <progress id="File" value="50" max="100">50%</progress>
+
+        </fieldset>
+
+    </form>
+    <div id="h" align="left">
+        <form style="align-items:center;">
+            <fieldset>
+                <h3> ADDRESS DETAILS</h3>
+                <label for="address">Address:</label>
+                <input type=textarea rows="10" cols="10" id="address" name="address"><br><br></textarea>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city"><br><br>
+                <label for="State">State:</label>
+                <input type="text" id="State" name="State"><br><br>
+                <label for="pincode">Pincode:</label>
+                <input type="number>6" id="pincode" name="pincode"><br><br>
+                <label for="File">completion:</label>
+                <progress id="File" value="100" max="100">100%</progress><br><br>
+                <div id="l" align="left">
+                    <input type="button" onclick="alert('thank you')" value="submit"></div>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>
